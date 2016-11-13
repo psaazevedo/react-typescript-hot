@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "lint": "tslint \"src/**/*.tsx\""
   },
   "author": "",
   "license": "ISC",
@@ -24,7 +25,9 @@
     "source-map-loader": "^0.1.5",
     "style-loader": "^0.13.1",
     "ts-loader": "^1.2.0",
-    "webpack-dev-server": "^1.16.2",
-    "webpack": "^1.13.3"
+    "tslint": "^3.15.1",
+    "tslint-microsoft-contrib": "^2.0.13",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
   }
 }
