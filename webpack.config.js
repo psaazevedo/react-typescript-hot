@@ -1,5 +1,7 @@
 var webpack = require('webpack');
 
+require('es6-promise').polyfill();
+
 module.exports = {
     entry: [
         "webpack-dev-server/client?http://localhost:3000",
